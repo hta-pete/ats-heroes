@@ -271,7 +271,7 @@ html, body {
     padding: 20px;
   }
   .slide-2-column .slide-2-column_cta.align-left {
-    padding: 30px 60px 30px 30px;
+    padding: 20px 40px 20px 20px;
   }
   .slide-2-column .slide-2-column_cta .cta-content {
     max-width: 600px;
@@ -335,6 +335,7 @@ html, body {
 @media (max-width: 650px) {
   .slide-2-column {
     height: 100vh;
+    min-height: 480px;
   }
   .slide-2-column.mobile-reverse .slide-2-column_wrap {
     display: flex;
@@ -359,9 +360,6 @@ html, body {
   .slide-2-column .slide-2-column_cta {
     z-index: 5;
     padding: 20px;
-  }
-  .slide-2-column .slide-2-column_cta.align-left {
-    padding: 30px 60px 30px 30px;
   }
   .slide-2-column .slide-2-column_cta .cta-content {
     max-width: 600px;
@@ -427,7 +425,6 @@ html, body {
     position: relative;
     width: 100%;
     height: 100vh;
-    min-height: 650px;
     overflow: hidden;
     border-bottom: 1px solid #ddd;
   }
@@ -455,24 +452,21 @@ html, body {
     z-index: 5;
     padding: 20px;
   }
-  .slide-2-column .slide-2-column_cta.align-left {
-    padding: 30px 60px 30px 30px;
-  }
   .slide-2-column .slide-2-column_cta .cta-content {
     max-width: 600px;
     margin: 0 auto;
   }
   .slide-2-column .slide-2-column_cta h1 {
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 20px;
     font-weight: 900;
     text-transform: uppercase;
   }
   .slide-2-column .slide-2-column_cta p {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 22px;
     font-weight: 300;
-    margin-top: 15px;
+    margin-top: 10px;
   }
   .slide-2-column .slide-2-column_cta strong {
     font-weight: 900;
@@ -510,7 +504,7 @@ html, body {
     -webkit-font-smoothing: antialiased;
   }
   .slide-2-column .driver-name {
-    font-size: 18px;
+    font-size: 16px;
     font-style: italic;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.75);
@@ -619,7 +613,7 @@ html, body {
     position: relative;
     width: 100%;
     height: 80vh;
-    min-height: 740px;
+    min-height: 480px;
     overflow: hidden;
     border-bottom: 1px solid #ddd;
   }
@@ -708,6 +702,92 @@ html, body {
   }
   .slide-3-images .driver-name {
     font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .slide-3-images {
+    height: 100vh;
+  }
+  .slide-3-images .slide-3-images_wrap {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+  }
+  .slide-3-images .slide-3-images_footer {
+    padding: 0 10px 20px 10px;
+  }
+  .slide-3-images .slide-2-column_cta {
+    z-index: 5;
+    padding: 20px 20px 20px 40px;
+  }
+  .slide-3-images .slide-2-column_cta.align-left {
+    padding: 20px 40px 20px 20px;
+  }
+  .slide-3-images .slide-2-column_cta .cta-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .slide-3-images h1.youmatter-large {
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 45px;
+    text-transform: none;
+    text-align: center;
+    padding: 30px 0 15px 0;
+  }
+  .slide-3-images h1.youmatter-large strong {
+    font-family: 'HelveticaNeueLT Std ExtBlk Cn';
+  }
+  .slide-3-images p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    padding-right: 20px;
+  }
+  .slide-3-images strong {
+    font-weight: 900;
+  }
+  .slide-3-images .hero-btn {
+    width: auto;
+    margin-top: 20px;
+  }
+  .slide-3-images .slide-3-images_image {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  .slide-3-images .driver-tag {
+    position: absolute;
+    left: 0;
+    bottom: 4vw;
+    width: 100%;
+    padding: 0 10px;
+    color: white;
+  }
+  .slide-3-images .driver-tag.stacked-tag .col-1-2 {
+    float: none;
+  }
+  .slide-3-images .driver-tag.stacked-tag .driver-name {
+    text-align: left;
+  }
+  .slide-3-images .youmatter-tag {
+    font-weight: 300;
+    font-size: 18px;
+  }
+  .slide-3-images .youmatter-tag strong {
+    font-family: 'HelveticaNeueLT Std ExtBlk Cn';
+    -webkit-font-smoothing: antialiased;
+  }
+  .slide-3-images .driver-name {
+    font-size: 13px;
     font-style: italic;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.75);
